@@ -36,6 +36,7 @@ sudo apt -y install python3-dev python3-pip python3-venv
 sudo -H pip3 install -U pip numpy
 sudo apt -y install python3-testresources
 
+echo cvVersion="4.1.0"
 # create virtual environment
 python3 -m venv OpenCV-"$cvVersion"-py3
 echo "# Virtual Environment Wrapper" >> ~/.bashrc
